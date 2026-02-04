@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <h2>Conference Events</h2>
+<center>
+<div>
+  <button onclick="filterCategory('All')">All</button>
+  <button onclick="filterCategory('Workshop')">Workshop</button>
+  <button onclick="filterCategory('Keynote')">Keynote</button>
+  <button onclick="filterCategory('Panel')">Panel</button>
+  <br>
+  <button onclick="filterTime('Morning')">Morning</button>
+  <button onclick="filterTime('Afternoon')">Afternoon</button>
+</div></center>
+
+<div id="events"></div>
+    <script src="event.js"></script>
+</body>
+</html>

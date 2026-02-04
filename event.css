@@ -1,0 +1,32 @@
+ body {
+      font-family: Arial;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    button {
+      margin: 5px;
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+
+    .event {
+      background: white;
+      padding: 10px;
+      margin: 10px;
+      width: 220px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .hide {
+      display: none;
+    }
